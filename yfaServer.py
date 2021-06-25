@@ -4,6 +4,7 @@ from flask_cors import CORS
 import re
 import spacy
 import numpy as np
+import traceback
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -58,9 +59,15 @@ def runScript():
 	data = flask.request.get_json()
 	
 	try:
-		return flask.jsonify(scores = getScores(data["mainInfo"], data["infos"]))
+		return flask.jsonify({
+			"status":"SUCCESSFUL",
+			"scores":getScores(data["mainInfo"], data["infos"])
+		})
 	except Exception as e:
-		return e
+		return flask.jsonify({
+			"status":"FAILED",
+			"error":traceback.extract_tb()
+		})
 
 
 
