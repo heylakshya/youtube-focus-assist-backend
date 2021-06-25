@@ -51,7 +51,7 @@ def getScores(mainInfo, infos):
 	return scores
 
 
-@server.route("/get-scores", methods=["GET"])
+@server.route("/get-scores", methods=["POST"])
 def runScript():
 	data = flask.request.get_json()
 	return flask.jsonify(scores = getScores(data["mainInfo"], data["infos"]))
