@@ -1,5 +1,6 @@
 # Server script for youtube focus assist google chrome extension
 import flask
+from flask_cors import CORS
 import re
 import spacy
 import numpy as np
@@ -50,6 +51,7 @@ def getScores(mainInfo, infos):
 	
 	return scores
 
+CORS(server)
 
 @server.route("/get-scores", methods=["POST"])
 def runScript():
