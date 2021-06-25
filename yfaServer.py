@@ -58,7 +58,7 @@ def runScript():
 	try:
 		return flask.jsonify(scores = getScores(data["mainInfo"], data["infos"]))
 	except Exception as e:
-		return flask.Response(e)
+		return e
 
 
 
