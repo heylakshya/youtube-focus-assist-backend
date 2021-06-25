@@ -66,7 +66,7 @@ def runScript():
 	except Exception as e:
 		return flask.jsonify({
 			"status":"FAILED",
-			"error":traceback.extract_tb()
+			"error":e
 		})
 
 
