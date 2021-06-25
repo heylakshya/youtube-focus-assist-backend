@@ -1,37 +1,36 @@
-attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1620387926260/work
-blis @ file:///Users/runner/miniforge3/conda-bld/cython-blis_1612082819625/work
-brotlipy==0.7.0
-catalogue @ file:///Users/runner/miniforge3/conda-bld/catalogue_1610454502153/work
+blis==0.7.4
+catalogue==2.0.4
 certifi==2021.5.30
-cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1613413892199/work
-chardet @ file:///Users/runner/miniforge3/conda-bld/chardet_1610093613037/work
+chardet==4.0.0
 click==7.1.2
-cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1616851523607/work
-cymem @ file:///opt/concourse/worker/volumes/live/0312466e-c9ce-4567-76d1-bfa1d6610ef2/volume/cymem_1613319253044/work
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
-Flask==1.1.2
-gunicorn @ file:///opt/concourse/worker/volumes/live/f7b39e0f-a194-41b6-4722-90b8829755e9/volume/gunicorn_1617120639810/work
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
-itsdangerous==1.1.0
-Jinja2==2.11.2
-jsonschema @ file:///opt/concourse/worker/volumes/live/2611dbea-1561-4354-54a9-19ae6e324574/volume/jsonschema_1608321992314/work
-MarkupSafe @ file:///opt/concourse/worker/volumes/live/1bcf0940-5bf8-4171-61e3-2133f5885e8b/volume/markupsafe_1621528148241/work
-murmurhash @ file:///opt/concourse/worker/volumes/live/91c9b290-6077-41e6-618b-2e77c3764a6c/volume/murmurhash_1607456116561/work
-numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1624399924833/work
-plac==1.0.0
-preshed @ file:///opt/concourse/worker/volumes/live/a2e28b62-2832-4f60-59c3-3fd32077b564/volume/preshed_1621860833337/work
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
-pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1608055815057/work
-pyrsistent @ file:///Users/runner/miniforge3/conda-bld/pyrsistent_1610146831305/work
-PySocks @ file:///Users/runner/miniforge3/conda-bld/pysocks_1610291470465/work
-regex @ file:///Users/runner/miniforge3/conda-bld/regex_1617644467061/work
-requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
-spacy @ file:///opt/concourse/worker/volumes/live/9535d1a5-d8ee-488e-7a6c-5ac91efabd53/volume/spacy_1608322957574/work
-srsly @ file:///opt/concourse/worker/volumes/live/296329c0-5569-44f7-611b-8fe779a641b6/volume/srsly_1607548533995/work
-thinc @ file:///opt/concourse/worker/volumes/live/b3bf720e-1e88-4dfb-7c3a-9c8dcc0c9867/volume/thinc_1608240725311/work
-tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1623518955413/work
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1622056799390/work
-wasabi @ file:///home/conda/feedstock_root/build_artifacts/wasabi_1612156086016/work
-Werkzeug==1.0.1
+cymem==2.0.5
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
+Flask==2.0.1
+idna==2.10
+itsdangerous==2.0.1
+Jinja2==3.0.1
+joblib==1.0.1
+MarkupSafe==2.0.1
+murmurhash==1.0.5
+numpy==1.21.0
+packaging==20.9
+pathy==0.5.2
+preshed==3.0.5
+pydantic==1.7.4
+pyparsing==2.4.7
+regex==2021.4.4
+requests==2.25.1
+scikit-learn==0.24.2
+scipy==1.7.0
+sklearn==0.0
+smart-open==3.0.0
+spacy==3.0.6
+spacy-legacy==3.0.6
+srsly==2.4.1
+thinc==8.0.6
+threadpoolctl==2.1.0
+tqdm==4.61.1
+typer==0.3.2
+urllib3==1.26.6
+wasabi==0.8.2
+Werkzeug==2.0.1
