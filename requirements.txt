@@ -4,7 +4,7 @@ certifi==2021.5.30
 chardet==4.0.0
 click==7.1.2
 cymem==2.0.5
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0-py3-none-any.whl
 Flask==2.0.1
 gunicorn==20.1.0
 idna==2.10
@@ -25,8 +25,9 @@ scikit-learn==0.24.2
 scipy==1.7.0
 sklearn==0.0
 smart-open==3.0.0
-spacy==3.0.6
 spacy-legacy==3.0.6
+spacy>=3.0.0,<4.0.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 srsly==2.4.1
 thinc==8.0.6
 threadpoolctl==2.1.0
