@@ -1,62 +1,37 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: osx-64
-attrs=21.2.0=pyhd8ed1ab_0
-brotlipy=0.7.0=py39hcbf5805_1001
-ca-certificates=2020.10.14=0
-catalogue=1.0.0=py39h6e9494a_3
-certifi=2021.5.30=py39hecd8cb5_0
-cffi=1.14.5=py39h319c39b_0
-chardet=4.0.0=py39h6e9494a_1
-click=7.1.2=py_0
-cryptography=3.4.7=py39ha2c9959_0
-cymem=2.0.5=py39h23ab428_0
-cython-blis=0.7.4=py39h329c335_0
-en-core-web-sm=2.3.1=pypi_0
-flask=1.1.2=py_0
-gunicorn=20.1.0=py39hecd8cb5_0
-idna=2.10=pyh9f0ad1d_0
-itsdangerous=1.1.0=py_0
-jinja2=2.11.2=py_0
-jsonschema=3.0.2=py39hecd8cb5_0
-libblas=3.9.0=9_openblas
-libcblas=3.9.0=9_openblas
-libcxx=10.0.0=1
-libffi=3.3=hb1e8313_2
-libgfortran=5.0.0=9_3_0_h6c81a4c_22
-libgfortran5=9.3.0=h6c81a4c_22
-liblapack=3.9.0=9_openblas
-libopenblas=0.3.15=openmp_h5e1b9a4_1
-llvm-openmp=11.1.0=hda6cdc1_1
-markupsafe=2.0.1=py39h9ed2024_0
-murmurhash=1.0.5=py39h23ab428_0
-ncurses=6.2=h0a44026_1
-numpy=1.21.0=py39h7eed0ac_0
-openssl=1.1.1k=h0d85af4_0
-pip=21.1.2=py39hecd8cb5_0
-plac=1.0.0=py_0
-preshed=3.0.5=py39h23ab428_4
-pycparser=2.20=pyh9f0ad1d_2
-pyopenssl=20.0.1=pyhd8ed1ab_0
-pyrsistent=0.17.3=py39hcbf5805_2
-pysocks=1.7.1=py39h6e9494a_3
-python=3.9.5=h88f2d9e_3
-python_abi=3.9=2_cp39
-readline=8.1=h9ed2024_0
-regex=2021.4.4=py39h89e85a6_0
-requests=2.25.1=pyhd3deb0d_0
-setuptools=52.0.0=py39hecd8cb5_0
-six=1.16.0=pyh6c4a22f_0
-spacy=2.3.5=py39hf7b0b51_0
-sqlite=3.36.0=hce871da_0
-srsly=1.0.5=py39h23ab428_0
-thinc=7.4.5=py39h1341a74_0
-tk=8.6.10=hb0a8c7a_0
-tqdm=4.61.1=pyhd8ed1ab_0
-tzdata=2021a=h52ac0ba_0
-urllib3=1.26.5=pyhd8ed1ab_0
-wasabi=0.8.2=pyh44b312d_0
-werkzeug=1.0.1=py_0
-wheel=0.36.2=pyhd3eb1b0_0
-xz=5.2.5=h1de35cc_0
-zlib=1.2.11=h1de35cc_3
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1620387926260/work
+blis @ file:///Users/runner/miniforge3/conda-bld/cython-blis_1612082819625/work
+brotlipy==0.7.0
+catalogue @ file:///Users/runner/miniforge3/conda-bld/catalogue_1610454502153/work
+certifi==2021.5.30
+cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1613413892199/work
+chardet @ file:///Users/runner/miniforge3/conda-bld/chardet_1610093613037/work
+click==7.1.2
+cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1616851523607/work
+cymem @ file:///opt/concourse/worker/volumes/live/0312466e-c9ce-4567-76d1-bfa1d6610ef2/volume/cymem_1613319253044/work
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
+Flask==1.1.2
+gunicorn @ file:///opt/concourse/worker/volumes/live/f7b39e0f-a194-41b6-4722-90b8829755e9/volume/gunicorn_1617120639810/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+itsdangerous==1.1.0
+Jinja2==2.11.2
+jsonschema @ file:///opt/concourse/worker/volumes/live/2611dbea-1561-4354-54a9-19ae6e324574/volume/jsonschema_1608321992314/work
+MarkupSafe @ file:///opt/concourse/worker/volumes/live/1bcf0940-5bf8-4171-61e3-2133f5885e8b/volume/markupsafe_1621528148241/work
+murmurhash @ file:///opt/concourse/worker/volumes/live/91c9b290-6077-41e6-618b-2e77c3764a6c/volume/murmurhash_1607456116561/work
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1624399924833/work
+plac==1.0.0
+preshed @ file:///opt/concourse/worker/volumes/live/a2e28b62-2832-4f60-59c3-3fd32077b564/volume/preshed_1621860833337/work
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1608055815057/work
+pyrsistent @ file:///Users/runner/miniforge3/conda-bld/pyrsistent_1610146831305/work
+PySocks @ file:///Users/runner/miniforge3/conda-bld/pysocks_1610291470465/work
+regex @ file:///Users/runner/miniforge3/conda-bld/regex_1617644467061/work
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+spacy @ file:///opt/concourse/worker/volumes/live/9535d1a5-d8ee-488e-7a6c-5ac91efabd53/volume/spacy_1608322957574/work
+srsly @ file:///opt/concourse/worker/volumes/live/296329c0-5569-44f7-611b-8fe779a641b6/volume/srsly_1607548533995/work
+thinc @ file:///opt/concourse/worker/volumes/live/b3bf720e-1e88-4dfb-7c3a-9c8dcc0c9867/volume/thinc_1608240725311/work
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1623518955413/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1622056799390/work
+wasabi @ file:///home/conda/feedstock_root/build_artifacts/wasabi_1612156086016/work
+Werkzeug==1.0.1
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
