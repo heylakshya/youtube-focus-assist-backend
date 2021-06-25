@@ -6,10 +6,9 @@ import numpy as np
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+server = flask.Flask(__name__)
 
 nlp = spacy.load("en_core_web_sm")
-
-server = flask.Flask(__name__)
 
 def simplify(txt):
 	doc = nlp(txt)
