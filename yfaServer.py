@@ -1,6 +1,6 @@
 # Server script for youtube focus assist google chrome extension
 import flask
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 import re
 import spacy
 import numpy as np
@@ -53,21 +53,24 @@ def getScores(mainInfo, infos):
 	return scores
 
 CORS(server)
-
-@server.route("/get-scores", methods=["POST"])
+@server.route("/get-scores/", methods=["POST", "OPTIONS"])
+@cross_origin(supports_credentials=True)
 def runScript():
 	data = flask.request.get_json()
 	
 	try:
-		return flask.jsonify({
+		response = flask.jsonify({
 			"status":"SUCCESSFUL",
 			"scores":getScores(data["mainInfo"], data["infos"])
 		})
+		return response
 	except Exception as e:
-		return flask.jsonify({
+		traceback.print_exc
+		response = flask.jsonify({
 			"status":"FAILED",
 			"error":e
 		})
+		return response
 
 
 
