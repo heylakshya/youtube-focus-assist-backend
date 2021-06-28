@@ -53,8 +53,9 @@ def getScores(mainInfo, infos):
 	return scores
 
 CORS(server)
+# server.config['CORS_HEADERS'] = 'Content-Type'
 @server.route("/get-scores/", methods=["POST", "OPTIONS"])
-@cross_origin(supports_credentials=True)
+@cross_origin(origins= "*")
 def runScript():
 	data = flask.request.get_json()
 	
@@ -68,11 +69,12 @@ def runScript():
 		traceback.print_exc
 		response = flask.jsonify({
 			"status":"FAILED",
-			"error":e
+			"error":(str(traceback.extract_tb(e.__traceback__)) + str(e))
 		})
 		return response
 
-
+if __name__ == "__main__":
+	server.run()
 
 
 
